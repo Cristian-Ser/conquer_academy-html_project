@@ -24,6 +24,7 @@
           width="150"></a>
     </figure>
 
+    <!-- nav -->
     <nav>
       <ul>
         <li><a href="../index.html">Home</a></li>
@@ -36,6 +37,57 @@
       </ul>
     </nav>
   </header>
+
+  <main>
+
+    <!-- formulario de registro -->
+    <section>
+      <form action="" method="post" enctype="multipart/form-data">
+
+        <!-- nombre completo -->
+        <p>
+          <label for="nombre">Nombre Completo</label>
+          <input type="text" id="nombre">
+        </p>
+
+        <!-- fecha de nacimiento -->
+        <p>
+          <label for="nacimiento">Fecha de nacimiento</label>
+          <input type="date" name="nacimiento" id="nacimiento">
+        </p>
+
+        <!-- e-mail -->
+        <p>
+          <label for="mail">E-mail</label>
+          <input type="email" name="mail" id="mail">
+        </p>
+
+        <!-- dirección -->
+        <p>
+          <label for="direccion">Dirección</label>
+          <input type="text" name="direccion" id="direccion">
+        </p>
+
+        <!-- página web -->
+        <p>
+          <input type="url" name="web" id="web">
+          <label for="web">Página Web</label>
+        </p>
+
+        <!-- foto -->
+        <p>
+          <label for="foto">Foto</label>
+          <input type="file" name="file" id="file">
+        </p>
+
+        <!-- biografía -->
+        <p>
+          <label for="biografia">Biografía</label><br>
+          <textarea name="biografia" id="biografia" cols="30" rows="10" placeholder="Escribe acerca de tí"></textarea>
+        </p>
+      </form>
+    </section>
+  </main>
 
   <footer>
     <p>© Conquer Blocks 2025 - <a href="">Aviso Legal</a></p>
