@@ -46,7 +46,11 @@
       <p>Conviertete en un desarrollador Full Stack con las tecnologías más demandadas del mercado</p>
       <figure>
         <figcaption>Ilustración de un desarrollador</figcaption>
-        <img src="/img/home/developer.webp" alt="Imágen de un desarrollador" width="900">
+        <picture>
+          <source media="(min-width:900px)" srcset="./img/home/developer.webp">
+          <source srcset="./img/home/developer_400w.png">
+          <img src="/img/home/developer.webp" alt="Imágen de un desarrollador" width="900">
+        </picture>
       </figure>
     </section>
 
@@ -55,7 +59,7 @@
       <h2>Descubre quienes somos</h2>
       <p>En Conquer Block te formaras con los <strong>mejores profesionales</strong> en este apasionante mundo del
         desarrollo</p>
-      <a href="/quienes_somos.html">Conócenos</a>
+      <a href="./pages/quienes_somos.html">Conócenos</a>
     </section>
 
     <!-- sección cursos -->
@@ -70,8 +74,8 @@
       <article>
         <h3>Master En Desarrollo De Inteligencia Artificial</h3>
         <p>Tú también puedes desarrollar Inteligencia Artificial, aquí te mostramos como.</p>
-        <a href="">Más información aquí</a>
-        <a href="/cursos.html">Ver todos los cursos</a>
+        <a href="">Más información aquí</a><br>
+        <a href="./pages/cursos.html">Ver todos los cursos</a>
       </article>
     </section>
 
@@ -90,7 +94,7 @@
           desarrollador Full Stack Marketer. Este híbrido entre desarrollador y</p>
       </article>
 
-      <a href="/blog.html">Ver todas las noticias</a>
+      <a href="./pages/blog.html">Ver todas las noticias</a>
     </section>
   </main>
 
